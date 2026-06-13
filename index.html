@@ -1,11 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Jiayun Zhang | Research Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jiayun Zhang / Vivian | Research Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <h1>Jiayun Zhang / Vivian</h1>
-  <p>Research Portfolio coming soon.</p>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">Jiayun Zhang</div>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <p class="eyebrow">Research Portfolio</p>
+      <h1>Jiayun Zhang / Vivian</h1>
+      <p class="subtitle">
+        Digital Humans · Character Animation · XR · Real-Time Rendering
+      </p>
+      <p class="intro">
+        I am an M.Sc. Computer Science student specialising in AR/VR at Trinity College Dublin.
+        My work focuses on digital humans, real-time animation, XR interaction, computer graphics,
+        and perception-driven virtual character systems.
+      </p>
+
+      <div class="hero-buttons">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn secondary" href="https://github.com/Vivianyoo" target="_blank">GitHub</a>
+        <a class="btn secondary" href="mailto:zhangj27@tcd.ie">Email</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section about">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>Research Focus</h2>
+      </div>
+      <p>
+        My current interests lie in the intersection of computer graphics, Unreal Engine,
+        MetaHuman animation, XR systems, and virtual character perception. I am especially interested
+        in how animation, facial expression, motion style, and interactive behaviour influence the way
+        users perceive digital humans and virtual avatars.
+      </p>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Selected Work</p>
+        <h2>Projects</h2>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card featured">
+          <div class="card-top">
+            <span class="project-type">Unreal Engine · MetaHuman</span>
+            <span class="star">♡</span>
+          </div>
+          <h3>Motion Editing Demos in Unreal Engine</h3>
+          <p>
+            Three motion editing workflows: MetaHuman retargeting across different body types,
+            an interactive two-character dance battle, and facial animation transfer using MetaHuman Animator.
+          </p>
+          <div class="tags">
+            <span>MetaHuman</span>
+            <span>IK Retargeting</span>
+            <span>Motion Warping</span>
+            <span>Facial Animation</span>
+          </div>
+          <div class="card-links">
+            <a href="https://youtu.be/zYm3TSHS76I" target="_blank">Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card featured">
+          <div class="card-top">
+            <span class="project-type">UE5 · Animation</span>
+            <span class="star">♡</span>
+          </div>
+          <h3>Stylized Short Story of a Girl and Her Dog</h3>
+          <p>
+            A short animated story created in Unreal Engine 5, combining animation principles,
+            rigid body physics, buoyancy, cloth simulation, camera planning, and Sequencer-based storytelling.
+          </p>
+          <div class="tags">
+            <span>UE5</span>
+            <span>Sequencer</span>
+            <span>Blueprint</span>
+            <span>Physics</span>
+          </div>
+          <div class="card-links">
+            <a href="https://youtu.be/CIDy_TbIkGQ" target="_blank">Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top">
+            <span class="project-type">OpenGL · Graphics</span>
+            <span class="star">♡</span>
+          </div>
+          <h3>Supernova Observatory</h3>
+          <p>
+            An interactive OpenGL space scene with textured model loading, multi-light Phong shading,
+            procedural nebula background rendering, hierarchical animation, and an ImGui control panel.
+          </p>
+          <div class="tags">
+            <span>C++</span>
+            <span>OpenGL</span>
+            <span>GLSL</span>
+            <span>ImGui</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/Vivianyoo/Supernova-Observatory-OpenGL" target="_blank">GitHub</a>
+            <a href="https://youtu.be/shACxHM6u54" target="_blank">Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top">
+            <span class="project-type">Real-Time Rendering</span>
+            <span class="star">♡</span>
+          </div>
+          <h3>Atmospheric Scattering Sky Renderer</h3>
+          <p>
+            A real-time OpenGL sky renderer using a sky cube and shader-based atmosphere parameters,
+            with interactive controls for sun elevation, density, steps, sun size, and aerosol scattering.
+          </p>
+          <div class="tags">
+            <span>OpenGL 4.5</span>
+            <span>GLSL</span>
+            <span>UBO</span>
+            <span>Rendering</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/Vivianyoo/Real-Time-Atmospheric-Scattering-Sky-Renderer" target="_blank">GitHub</a>
+            <a href="https://youtu.be/6Kb5csYMgCE" target="_blank">Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top">
+            <span class="project-type">Unity · XR</span>
+            <span class="star">♡</span>
+          </div>
+          <h3>VR Library</h3>
+          <p>
+            A networked virtual library where users can browse, request, read, and interact with books
+            together in a shared desktop and VR environment.
+          </p>
+          <div class="tags">
+            <span>Unity</span>
+            <span>C#</span>
+            <span>VR</span>
+            <span>RBAC</span>
+          </div>
+          <div class="card-links">
+            <a href="https://norgedout.itch.io/vr-library" target="_blank">Itch.io</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top">
+            <span class="project-type">Computer Vision</span>
+            <span class="star">♡</span>
+          </div>
+          <h3>ReDegNet Reproduction</h3>
+          <p>
+            A reproduction and experimental study of a degradation-aware blind image super-resolution method,
+            organised for academic learning and reproducibility.
+          </p>
+          <div class="tags">
+            <span>Python</span>
+            <span>PyTorch</span>
+            <span>BasicSR</span>
+            <span>Super-Resolution</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/Vivianyoo/Learning-Face-Based-Degradation-Representations-for-Real-World-Image-Super-Resolution" target="_blank">GitHub</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="section-heading">
+        <p class="eyebrow">Technical Background</p>
+        <h2>Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-box">
+          <h3>Graphics & Rendering</h3>
+          <p>OpenGL, GLSL, shader programming, real-time rendering, Phong lighting, procedural visual effects.</p>
+        </div>
+        <div class="skill-box">
+          <h3>XR & Game Engines</h3>
+          <p>Unreal Engine, Unity, MetaHuman, Blueprint, Sequencer, VR interaction, interactive systems.</p>
+        </div>
+        <div class="skill-box">
+          <h3>Animation</h3>
+          <p>IK Rig, IK Retargeting, Animation Blueprint, Blend Space, Motion Warping, MetaHuman Animator.</p>
+        </div>
+        <div class="skill-box">
+          <h3>Programming & ML</h3>
+          <p>C++, Python, C#, PyTorch, BasicSR, Git, Visual Studio, VS Code, Anaconda.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section direction">
+      <div class="section-heading">
+        <p class="eyebrow">Future Direction</p>
+        <h2>Research Direction</h2>
+      </div>
+      <p>
+        I aim to further explore perception-driven digital humans and XR systems, especially how
+        facial features, motion style, expression transfer, and interactive behaviour can be designed,
+        controlled, and evaluated in real-time virtual environments.
+      </p>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's Connect</h2>
+      </div>
+      <p>
+        Email: <a href="mailto:zhangj27@tcd.ie">zhangj27@tcd.ie</a>
+      </p>
+      <p>
+        GitHub: <a href="https://github.com/Vivianyoo" target="_blank">github.com/Vivianyoo</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Jiayun Zhang / Vivian · Research Portfolio</p>
+  </footer>
 </body>
 </html>
